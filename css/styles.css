@@ -1,0 +1,43 @@
+.yellow {
+  background-color: yellow;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.header {
+  background-color: blue;
+  height: 250px;
+}
+
+.nav {
+  background-color: green;
+  height: 100px
+}
+
+.content {
+  background-color: red;
+  height: 300px;
+}
+
+.aside {
+  background-color: cyan;
+  height: 300px;
+}
+
+.promo {
+  background-color: orange;
+  height: 150px;
+}
+
+.footer {
+  color: white;
+  background-color: black;
+  height: 50px;
+}
+
+.block {
+  border: 3px solid black;
+}
