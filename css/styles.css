@@ -1,43 +1,91 @@
-.yellow {
-  background-color: yellow;
+@media only screen and (min-width: 768px) {
+  .yellow {
+    background-color: cyan;
+  }
+
+  .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .header {
+    background-color: red;
+    height: 250px;
+  }
+
+  .nav {
+    background-color: blue;
+    height: 100px
+  }
+
+  .content {
+    background-color: orange;
+    height: 300px;
+  }
+
+  .aside {
+    background-color: purple;
+    height: 300px;
+  }
+
+  .promo {
+    background-color: chartreuse;
+    height: 150px;
+  }
+
+  .footer {
+    color: white;
+    background-color: yellow;
+    height: 50px;
+  }
+
+  .block {
+    border: 3px solid black;
+  }
 }
 
-.container {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
+@media only screen and (min-width: 875px) {
+  .yellow {
+    background-color: yellow;
+  }
 
-.header {
-  background-color: blue;
-  height: 250px;
-}
+  .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 
-.nav {
-  background-color: green;
-  height: 100px
-}
+  .header {
+    background-color: blue;
+    height: 250px;
+  }
 
-.content {
-  background-color: red;
-  height: 300px;
-}
+  .nav {
+    background-color: green;
+    height: 100px
+  }
 
-.aside {
-  background-color: cyan;
-  height: 300px;
-}
+  .content {
+    background-color: red;
+    height: 300px;
+  }
 
-.promo {
-  background-color: orange;
-  height: 150px;
-}
+  .aside {
+    background-color: cyan;
+    height: 300px;
+  }
 
-.footer {
-  color: white;
-  background-color: black;
-  height: 50px;
-}
+  .promo {
+    background-color: orange;
+    height: 150px;
+  }
 
-.block {
-  border: 3px solid black;
+  .footer {
+    color: white;
+    background-color: black;
+    height: 50px;
+  }
+
+  .block {
+    border: 3px solid black;
+  }
 }
